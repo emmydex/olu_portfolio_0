@@ -9,7 +9,7 @@
 
 body {
   height: 100vh;
-  background: #212529;
+  background: #2f3448;
   scroll-behavior: smooth;
 }
 
@@ -84,14 +84,14 @@ body {
   text-decoration: underline;
 }
 
-.main p .title {
+.main p.title {
   font-size: 44px;
   font-weight: 600;
   color: white;
   margin-top: 8px;
 }
 
-.main p .subtitle {
+.main p.subtitle {
   font-size: 16px;
   color: #ccc;
   margin-top: 20px;
@@ -178,7 +178,8 @@ body {
 
 .seprator {
   margin: 50px auto; /* center's the seperator horizontally*/
-  padding: 10px 20px;
+  margin-top: 120px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   color: #06d35d;
   border-radius: 12px;
